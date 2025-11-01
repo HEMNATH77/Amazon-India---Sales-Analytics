@@ -17,7 +17,7 @@ DATE_COL = 'order_date'
 # -----------------------------
 # Utilities & Data Loading
 # -----------------------------
-@st.cache_data
+@st.cache_data(show_spinner=False)
 def load_data(path=DATA_PATH):
     df = pd.read_csv(path, low_memory=False)
     df.columns = [c.strip() for c in df.columns]
@@ -504,4 +504,5 @@ def main():
 
 if __name__=='__main__':
     main()
+
 
