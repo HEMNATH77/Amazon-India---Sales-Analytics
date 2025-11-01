@@ -11,7 +11,7 @@ st.set_page_config(page_title="Analytics Dashboard", layout="wide")
 # -----------------------------
 # Configuration
 # -----------------------------
-DATA_PATH = "Amazon_final_Dataset.csv"  # change if needed
+DATA_PATH = "https://drive.google.com/uc?id=1cK4fn4mij2dfzGSnMUzmAkg10vR1H7NR"  # change if needed
 DATE_COL = 'order_date'
 
 # -----------------------------
@@ -504,3 +504,4 @@ def main():
 
 if __name__=='__main__':
     main()
+
