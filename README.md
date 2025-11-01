@@ -1,6 +1,3 @@
-# Amazon-India---Sales-Analytics
-
-
 # 🛍️ Amazon India Data Cleaning & Preparation (2015–2025)
 
 ## 📘 Project Overview
