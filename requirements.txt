@@ -1,6 +1,7 @@
 
 
 
+
 # ----------------------------------------
 # Core App Framework
 # ----------------------------------------
@@ -15,6 +16,7 @@ numpy==1.26.4
 # ----------------------------------------
 # Visualization Libraries (Complete Set)
 # ----------------------------------------
+plotly-express==0.4.1
 
 # 🧭 Interactive Charts & Dashboards
 plotly==5.23.0        # Includes plotly.express and plotly.graph_objects
