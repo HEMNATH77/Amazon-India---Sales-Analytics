@@ -1,11 +1,58 @@
-# Core dependencies
+
+
+
+# ----------------------------------------
+# Core App Framework
+# ----------------------------------------
 streamlit==1.39.0
+
+# ----------------------------------------
+# Data Handling & Computation
+# ----------------------------------------
 pandas==2.2.2
 numpy==1.26.4
-plotly==5.23.0
 
-# Date handling
+# ----------------------------------------
+# Visualization Libraries (Complete Set)
+# ----------------------------------------
+
+# 🧭 Interactive Charts & Dashboards
+plotly==5.23.0        # Includes plotly.express and plotly.graph_objects
+altair==5.4.1         # Declarative statistical visualization
+bokeh==3.6.1          # Interactive visualizations in browser
+folium==0.17.0        # Geospatial maps (Leaflet.js)
+pydeck==0.9.1         # Map-based and 3D visualizations for Streamlit
+
+# 📊 Static & Scientific Visualization
+matplotlib==3.9.2     # Core plotting library
+seaborn==0.13.2       # Statistical graphics built on matplotlib
+
+# 🗺️ Advanced / Optional Visualization
+geopandas==1.0.1      # Geospatial data visualization support
+wordcloud==1.9.3      # For generating word clouds
+networkx==3.3         # Network graph visualization
+pillow==10.4.0        # Image support for visualization rendering
+
+# ----------------------------------------
+# Date & Time Utilities
+# ----------------------------------------
 python-dateutil==2.9.0.post0
-
-# Optional (if you want to include advanced formatting or parsing)
 pytz==2024.1
+
+# ----------------------------------------
+# Optional Analytics / Machine Learning
+# ----------------------------------------
+scikit-learn==1.5.2
+statsmodels==0.14.2
+
+# ----------------------------------------
+# File Handling & Web Utilities
+# ----------------------------------------
+openpyxl==3.1.5
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# ----------------------------------------
+# Deployment & Environment
+# ----------------------------------------
+python-dotenv==1.0.1
