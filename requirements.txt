@@ -117,7 +117,6 @@ python-dateutil==2.9.0.post0
 python-json-logger==3.3.0
 pytz==2025.2
 
-pywinpty==3.0.0
 PyYAML==6.0.2
 pyzmq==27.0.2
 referencing==0.36.2
@@ -142,7 +141,10 @@ streamlit==1.47.1
 tenacity==9.1.2
 tensorboard==2.19.0
 tensorboard-data-server==0.7.2
-tensorflow==2.19.0
+tensorflow==2.20.0
+pip>=25.0
+
+
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==3.1.0
 terminado==0.18.1
